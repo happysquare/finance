@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Finance::VERSION
   spec.authors       = ["James Johnston"]
   spec.email         = ["james@happysquare.com.au"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Collection of finance formulas, early stages of development}
+  spec.description   = %q{This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007}
   spec.homepage      = ""
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0")
