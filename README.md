@@ -1,6 +1,6 @@
 # Finance
 
-TODO: Write a gem description
+TODO: This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007
 
 ## Installation
 
