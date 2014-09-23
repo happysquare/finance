@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["james@happysquare.com.au"]
   spec.summary       = %q{Collection of finance formulas, early stages of development}
   spec.description   = %q{This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/happysquare/finance"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
