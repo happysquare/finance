@@ -1,6 +1,11 @@
 require 'finance'
 describe Finance::AssetReturns do
-	subject{Finance::AssetReturns.new}
+	subject{
+		Class.new{
+			include Finance::AssetReturns
+		}.new
+
+	}
 	it "should calculate the simple return on an asset correctly" do
 		expect(subject.simple_return(85,90).round(4)).to eq(0.0588)
 

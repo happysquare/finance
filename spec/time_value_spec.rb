@@ -1,6 +1,11 @@
 require 'finance'
+
 describe Finance::TimeValue do
-	subject{Finance::TimeValue.new}
+	subject { 
+		Class.new { 
+			include Finance::TimeValue 
+		}.new 
+	}
 	it "should calculate the future value of money correctly" do
 		expect(subject.future_value(0.03,1,1000)).to eq(1030)
 		expect(subject.future_value(0.03,5,1000).round(2)).to eq(1159.27)

@@ -1,5 +1,5 @@
 module Finance
-	class AssetReturns
+	module AssetReturns
 		##
 		# determine the rate of return of an asset 
 		# over a given time period

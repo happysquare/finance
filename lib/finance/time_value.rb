@@ -1,5 +1,5 @@
 module Finance
-	class TimeValue
+	module TimeValue
 		require 'bigdecimal'
 		require 'bigdecimal/util'
 		##
@@ -17,7 +17,6 @@ module Finance
 			end
 			future_value = present_value * (1+rate/compound_frequency)** (periods * compound_frequency)
 		end
-
 
 		##
 		# determine the present value required to acheive a

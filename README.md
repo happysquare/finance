@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-Instructions pending
+require 'finance'
+include Finance::AssetReturns #asset return mixins
+include Finance::TimeValue #time value mixins
+
+
 
 ## Contributing
 
