@@ -1,24 +1,24 @@
 # Finance
 
-TODO: This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007
+This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'finance'
+    gem 'finance', :git => 'https://github.com/happysquare/finance'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
-    $ gem install finance
+    $ gem install finance, :git => 'https://github.com/happysquare/finance'
 
 ## Usage
 
-TODO: Write usage instructions here
+Instructions pending
 
 ## Contributing
 
