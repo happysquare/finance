@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{This is a collection of some basic finance formulas, which I will develop as I go through: https://class.coursera.org/compfinance-007}
   spec.homepage      = "https://github.com/happysquare/finance"
   spec.license       = "MIT"
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = ["lib/finance.rb","lib/finance/annuity.rb","lib/finance/asset_returns.rb","lib/finance/time_value.rb","lib/finance/version.rb"] 
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
