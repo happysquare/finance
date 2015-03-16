@@ -54,4 +54,6 @@ describe Finance::TimeValue do
 	it "should calculate the capital gain" do
 		expect(subject.capital_gain(4,620000,722526).round(4)).to eq(0.039)
 	end
+	
+
 end
